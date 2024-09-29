@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(176, 6, 6);
+}
+h1{
+  color: rgb(2, 5, 5);
+}
+main h1 {
+  color: rgb(255, 192, 203);
+  font-size: 40px;
+  color:steelblue;
+}
+
+.color-titulo{
+  color: rgb(236, 236, 5);
+}
+#identificador{
+   background-color: rgb(3, 3, 243);
+   color: rgb(240, 255, 255);
+}
+[href="https://oferta.senasofiaplus.edu.co"]
+{  
+  color: #fff;
+  text-decoration:none;
+}
+[href="https://mail.google.com/mail"]
+{  
+  color: #db1919;
+  text-decoration:none;
+}
+[href="https://www.google.com"]
+{  
+  color: #dbed16;
+  text-decoration:none;
+}
+h1 , h2{
+  color: brown;
+  font-size: 45px
+}
