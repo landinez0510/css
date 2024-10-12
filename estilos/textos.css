@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=roboto:ital');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "roboto" ; 
+  font-size: 40px;
+}
+p{
+  font-size: 40px;
+  font-size: 1rem;
+  color: blueviolet;
+  text-align: center;
+  text-align: justify;
+  text-align: left;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.5;
+  text-shadow: 1px 1px 4px #f96204;
+}
+a{
+  text-decoration: none ;
+  font-size: 60;
+  color: #5f5555;
+  cursor: pointer;
+  
+}

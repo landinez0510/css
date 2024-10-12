@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::selection{
+  background-color: tomato;
+}
+.enlace{
+  display: block;
+  background-color: tomato;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-bottom: solid 3px #000;
+  transition: 0.5s;
+}
+.enlace:link{
+  background-color: steelblue;
+  color: #000;
+}
+.enlace:visited{
+  background-color: green;
+}
+.enlace:hover{
+  background-color: blue;
+}
+p{
+  width: 60%;
+  margin: auto;
+  border: 2px solid #000;
+}
+p::before, ::after{
+  content: "";
+  height: 4px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 4px; 
+}
+
+h1{
+  text-align: center;
+  color: blue;
+}
